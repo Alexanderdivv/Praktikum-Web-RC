@@ -1,0 +1,143 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    background-image: url('https://image.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg');
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgb(80, 80, 80);
+    height: auto;
+    width: 100%;
+}
+
+img.logo_header{
+    height: 70px;
+    width: 180px;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 5px 10px 15px rgb(155, 155, 155);
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
+
+main{
+    padding: 40px;
+    display:flex;
+    height: auto;
+    width: auto;
+}
+
+.mainpage{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    align-items: center;
+    display: inline-block;
+}
+
+.mainpage h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.mainpage h1:hover{
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
+
+.bio-table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.bio-table td:hover {
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
+
+.bio-table th{
+    padding: 12px 15px;
+}
+
+.bio-table td {
+    padding: 12px 15px;
+    font-size: 18px;
+}
+
+.sidepage{
+    background-color: rgba(153, 153, 153,0.3);
+    height: auto;
+    width: 20%;
+    display: flex;
+    padding: 20px;
+    display: inline-block;
+}
+
+.sidepage h2{
+    background-color: rgb(53, 53, 53);
+}
+.sidepage h3{
+    font-size: 14pt;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sidepage img{
+    justify-content: center;
+    width: 200px;
+    padding-left: 30px;
+}
+
+
+footer{
+    margin-top: 130px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(71, 69, 69);
+    height: auto;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer p:hover{
+    color: rgb(255, 251, 38);
+    transition: 25ms;
+}
